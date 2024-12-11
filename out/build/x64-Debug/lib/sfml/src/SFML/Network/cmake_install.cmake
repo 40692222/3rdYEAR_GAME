@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/40646743/source/repos/3rdYEAR_GAME/lib/sfml/src/SFML/Network
+# Install script for directory: C:/Users/kwood/source/repos/3rdYEAR_GAME/lib/sfml/src/SFML/Network
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/40646743/Source/Repos/3rdYEAR_GAME/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/kwood/Source/Repos/3rdYEAR_GAME/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,10 +33,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/40646743/source/repos/3rdYEAR_GAME/out/build/x64-Debug/lib/sfml/lib/sfml-network-d.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/kwood/source/repos/3rdYEAR_GAME/out/build/x64-Debug/lib/sfml/lib/sfml-network-d.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "bin" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/40646743/source/repos/3rdYEAR_GAME/out/build/x64-Debug/bin/sfml-network-d-2.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/kwood/source/repos/3rdYEAR_GAME/out/build/x64-Debug/bin/sfml-network-d-2.dll")
 endif()
 
